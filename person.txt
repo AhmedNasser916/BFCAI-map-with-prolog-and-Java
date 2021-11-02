@@ -1,0 +1,12 @@
+inf(dr,mtwaly_rashad,information_system).
+inf(dr,mona_arfa,information_system).
+inf(dr,abdlftah,information_system).
+inf(dr,diaa_sslama,information_system).
+inf(ta,sobhy,information_system).
+inf(ta,mahmoud_ismail,information_system).
+inf(ta,mostafa_ablla,information_system).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+person(X,R):-inf(DR,X,DEP),R =[DR,X,department,DEP].
+is(X):-inf(D,Z,information_system),X=[D,Z].
+cs(X):-inf(D,Z,computer_Science),X=[D,Z].
+sc(X):-inf(D,Z,scientific_computing),X=[D,Z].
