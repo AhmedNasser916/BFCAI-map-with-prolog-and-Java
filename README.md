@@ -3,9 +3,6 @@ and used java  to bulid interatvie ui and desktop application.
 
 
 
-(Ahmed NAfea 5nzeriiiiiiiiiii)
-
-
 
 
 We Spareted the BFCAI to 4 floors and every floor  has (lab, room, theater, security, .....etc).
